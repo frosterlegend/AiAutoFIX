@@ -1,3 +1,4 @@
+// @Codebase
 package com.example.aiautofix
 
 import android.os.Bundle
@@ -30,6 +31,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// @Codebase Greeting
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
